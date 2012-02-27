@@ -72,7 +72,7 @@ class AgarisController < ApplicationController
     @agari.attributes = params[:agari]
 
     @agari.teyaku_analysis
-    @agari.web_commit
+    #@agari.web_commit
 
     respond_to do |format|
       if @agari.save
