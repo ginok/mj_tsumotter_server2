@@ -14,6 +14,8 @@ gem 'rmagick'
 gem 'paperclip'
 gem 'rcov'
 
+gem 'mjparse', :git => 'git://github.com/mlfie/mjparse.git'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

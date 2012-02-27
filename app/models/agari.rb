@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
 require 'mlfielib/cv/template_matching_analyzer'
-require 'mlfielib/analysis/yaku_specimen'
-require 'mlfielib/analysis/kyoku'
-require 'mlfielib/analysis/teyaku_decider'
-require 'mlfielib/web/tsumotter'
+require 'mjparse'
 
 class Agari < ActiveRecord::Base
-  include Mlfielib::Analysis
+  include Mjparse
 
   attr_protected :total_fu_num, :total_han_num, :mangan_scale, :total_point, :parent_point, :child_point, :ron_point
   attr_accessor :local_img_path
