@@ -38,4 +38,8 @@ gem 'mjparse', :git => 'git://github.com/mlfie/mjparse.git'
 # group :development, :test do
 #   gem 'webrat'
 # end
+group :development, :test do
+  gem 'simplecov'
+  gem 'simplecov-rcov'
+end
 
